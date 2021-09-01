@@ -46,6 +46,9 @@ async def cb_handler(client, query):
         await query.answer()
         keyboard = InlineKeyboardMarkup(
             [
+                [ 
+                    InlineKeyboardButton("〠  Add Me To Your Group ➕", url="https://t.me/Anikha_UnlimitedBot?true"),
+                ],
                 [
                     InlineKeyboardButton("KICCHA REQUEST", url="https://t.me/KicchaRequest"),
                     InlineKeyboardButton("About Me", callback_data="about_data")
