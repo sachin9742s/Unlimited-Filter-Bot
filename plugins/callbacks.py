@@ -31,6 +31,14 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton("Command Help", callback_data="help_data")
+                ],
+                [
+                    InlineKeyboardButton("KICCHA REQUEST", url="https://t.me/KicchaRequest"),
+                    InlineKeyboardButton("About Me", callback_data="about_data")
+                ],
+                [
+                    InlineKeyboardButton("Movie Channel", url="https://t.me/GD_FILMCLUB"),
+                    InlineKeyboardButton("Support Channel", url="https://t.me/ROCKHDMOVIES2021")
                 ]
             ]
         )
@@ -47,7 +55,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [ 
-                    InlineKeyboardButton("〠  Add Me To Your Group ➕", url="https://t.me/Anikha_UnlimitedBot?true"),
+                    InlineKeyboardButton("〠  Add Me To Your Group ➕", url="https://t.me/Anikha_UnlimitedBot?startgroup=true"),
                 ],
                 [
                     InlineKeyboardButton("KICCHA REQUEST", url="https://t.me/KicchaRequest"),
